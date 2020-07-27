@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_data_item">
+    <sys_sg_data_item action="INSERT_OR_UPDATE">
+        <condition_type>script</condition_type>
+        <description/>
+        <group_by/>
+        <instance_relative_url_qc/>
+        <name>Asset Searcher</name>
+        <query_condition/>
+        <query_condition_script><![CDATA[(function getQueryString(input) {
+    //Type appropriate comment here, and begin script below
+    var queryString = "";
+    var assets_gr = new GlideRecord('alm_asset');
+    assets_gr.addEncodedQuery('model_category=81feb9c137101000deeabfc8bcbe5dc4'); //return computers only
+    var counter = 0;
+    if(input.asset_tag != "" && input.serial_number == ""){
+        assets_gr.addQuery('asset_tag', input.asset_tag);
+        assets_gr.query();
+        while(assets_gr.next()){
+            if(counter == 0){
+                queryString+="asset_tag="+assets_gr.asset_tag+"^EQ";
+            }else{
+                queryString+="^ORasset_tag="+assets_gr.asset_tag+"^EQ";
+            }
+            counter+=1;
+        }
+        if(counter == 0){
+            return "asset_tag="+input.asset_tag+"^EQ";
+        }
+        return queryString;
+    }else if(input.asset_tag == "" && input.serial_number != ""){
+        assets_gr.addQuery('serial_number', input.serial_number);
+        assets_gr.query();
+        while(assets_gr.next()){
+            if(counter == 0){
+                queryString+="serial_number="+assets_gr.serial_number+"^EQ";
+            }else{
+                queryString+="^ORserial_number="+assets_gr.serial_number+"^EQ";
+            }
+            counter+=1;
+        }
+         if(counter == 0){
+            return "serial_number="+input.serial_number+"^EQ";
+        }
+        return queryString;
+    }else{
+        assets_gr.addQuery('asset_tag', input.asset_tag);
+        assets_gr.addQuery('serial_number', input.serial_number);
+        assets_gr.query();
+        while(assets_gr.next()){
+            if(counter == 0){
+                queryString+="asset_tag="+assets_gr.asset_tag+"^EQ^serial_number="+assets_gr.serial_number+"^EQ";
+            }else{
+                queryString+="^ORasset_tag="+assets_gr.asset_tag+"^EQ^serial_number="+assets_gr.serial_number+"^EQ";
+            }
+            counter+=1;
+        }
+        if(counter == 0){
+            return "asset_tag="+input.asset_tag+"^EQ^serial_number="+input.serial_number+"^EQ";
+        }
+        return queryString;
+    }
+})(input);]]></query_condition_script>
+        <sys_class_name>sys_sg_data_item</sys_class_name>
+        <sys_created_by>gareth.price</sys_created_by>
+        <sys_created_on>2020-07-27 08:35:07</sys_created_on>
+        <sys_id>7d6260452f12945054daa1fef699b65d</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Asset Searcher</sys_name>
+        <sys_package display_value="FF Asset Management" source="x_357097_ff_asset">cd10a8052f5e545054daa1fef699b660</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="FF Asset Management">cd10a8052f5e545054daa1fef699b660</sys_scope>
+        <sys_update_name>sys_sg_data_item_7d6260452f12945054daa1fef699b65d</sys_update_name>
+        <sys_updated_by>gareth.price</sys_updated_by>
+        <sys_updated_on>2020-07-27 09:45:58</sys_updated_on>
+        <table>alm_asset</table>
+    </sys_sg_data_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=7d6260452f12945054daa1fef699b65d"/>
+</record_update>

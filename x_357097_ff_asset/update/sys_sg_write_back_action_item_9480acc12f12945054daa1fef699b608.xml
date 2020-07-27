@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_write_back_action_item">
+    <sys_sg_write_back_action_item action="INSERT_OR_UPDATE">
+        <description/>
+        <execution_script><![CDATA[// create incident from asset
+(function WriteBackAction(input) {
+	var gr = new GlideRecord('incident');
+	gr.initialize();
+	gr.setValue('short_description', input.short_description);
+	gr.setValue('caller_id', input.caller_id);
+	gr.setValue('category','Hardware');
+	//gr.setValue('subcategory',input.subcategory);
+	//gr.setValue('urgency', input.urgency);
+	//gr.setValue('contact_type', 'phone');
+	gr.setValue('description', gs.getMessage('Problem with "{0}"', input.display_name));
+	if(!gs.nil( input.cmdb_ci))
+		gr.setValue('cmdb_ci', input.cmdb_ci);
+	gr.insert();
+})(input);]]></execution_script>
+        <name>Create an Incident (asset)</name>
+        <query_condition/>
+        <sys_class_name>sys_sg_write_back_action_item</sys_class_name>
+        <sys_created_by>gareth.price</sys_created_by>
+        <sys_created_on>2020-07-27 08:28:44</sys_created_on>
+        <sys_id>9480acc12f12945054daa1fef699b608</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Create an Incident (asset)</sys_name>
+        <sys_package display_value="FF Asset Management" source="x_357097_ff_asset">cd10a8052f5e545054daa1fef699b660</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="FF Asset Management">cd10a8052f5e545054daa1fef699b660</sys_scope>
+        <sys_update_name>sys_sg_write_back_action_item_9480acc12f12945054daa1fef699b608</sys_update_name>
+        <sys_updated_by>gareth.price</sys_updated_by>
+        <sys_updated_on>2020-07-27 11:03:47</sys_updated_on>
+        <table/>
+        <template/>
+        <type>script</type>
+        <use_current_record_as_condition>false</use_current_record_as_condition>
+    </sys_sg_write_back_action_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=9480acc12f12945054daa1fef699b608"/>
+</record_update>

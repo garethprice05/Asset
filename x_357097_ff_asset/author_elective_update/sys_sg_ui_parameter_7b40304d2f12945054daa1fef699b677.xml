@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_ui_parameter">
+    <sys_sg_ui_parameter action="DELETE">
+        <button/>
+        <button_parent_table/>
+        <carried>false</carried>
+        <constant/>
+        <default_value/>
+        <default_value_type>none</default_value_type>
+        <field_name/>
+        <input_source>user</input_source>
+        <input_style>inline</input_style>
+        <input_type>text</input_type>
+        <mandatory>false</mandatory>
+        <max_entries/>
+        <multi_entry>false</multi_entry>
+        <multi_select>false</multi_select>
+        <name>Test</name>
+        <order>30</order>
+        <parameter_type>screen</parameter_type>
+        <placeholder/>
+        <screen display_value="Asset Searcher">93d228452f12945054daa1fef699b6fc</screen>
+        <search_type>starts_with</search_type>
+        <source_field/>
+        <sys_class_name>sys_sg_ui_parameter</sys_class_name>
+        <sys_created_by>gareth.price</sys_created_by>
+        <sys_created_on>2020-07-27 09:35:53</sys_created_on>
+        <sys_id>7b40304d2f12945054daa1fef699b677</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Test</sys_name>
+        <sys_package display_value="FF Asset Management" source="x_357097_ff_asset">cd10a8052f5e545054daa1fef699b660</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="FF Asset Management">cd10a8052f5e545054daa1fef699b660</sys_scope>
+        <sys_update_name>sys_sg_ui_parameter_7b40304d2f12945054daa1fef699b677</sys_update_name>
+        <sys_updated_by>gareth.price</sys_updated_by>
+        <sys_updated_on>2020-07-27 09:35:58</sys_updated_on>
+        <table_name/>
+    </sys_sg_ui_parameter>
+    <sys_translated_text action="DELETE" query="documentkey=7b40304d2f12945054daa1fef699b677"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="FF Asset Management">cd10a8052f5e545054daa1fef699b660</application>
+        <file_path/>
+        <instance_id>564aea0adbf0df0852e3f70fbf96194b</instance_id>
+        <instance_name>dev52683</instance_name>
+        <name>sys_sg_ui_parameter_7b40304d2f12945054daa1fef699b677</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_ui_parameter"><sys_sg_ui_parameter action="INSERT_OR_UPDATE"><button/><button_parent_table/><carried>false</carried><constant/><default_value/><default_value_type>none</default_value_type><field_name/><input_source>user</input_source><input_style>inline</input_style><input_type>text</input_type><mandatory>false</mandatory><max_entries/><multi_entry>false</multi_entry><multi_select>false</multi_select><name>Test</name><order>30</order><parameter_type>screen</parameter_type><placeholder/><screen display_value="Asset Searcher">93d228452f12945054daa1fef699b6fc</screen><search_type>starts_with</search_type><source_field/><sys_class_name>sys_sg_ui_parameter</sys_class_name><sys_created_by>gareth.price</sys_created_by><sys_created_on>2020-07-27 09:35:53</sys_created_on><sys_id>7b40304d2f12945054daa1fef699b677</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Test</sys_name><sys_package display_value="FF Asset Management" source="x_357097_ff_asset">cd10a8052f5e545054daa1fef699b660</sys_package><sys_policy/><sys_scope display_value="FF Asset Management">cd10a8052f5e545054daa1fef699b660</sys_scope><sys_update_name>sys_sg_ui_parameter_7b40304d2f12945054daa1fef699b677</sys_update_name><sys_updated_by>gareth.price</sys_updated_by><sys_updated_on>2020-07-27 09:35:58</sys_updated_on><table_name/></sys_sg_ui_parameter><sys_translated_text action="delete_multiple" query="documentkey=7b40304d2f12945054daa1fef699b677"/></record_update>]]></payload>
+        <payload_hash>1470438196</payload_hash>
+        <record_name>Test</record_name>
+        <reverted_from/>
+        <source>c51020c12f12945054daa1fef699b682</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>gareth.price</sys_created_by>
+        <sys_created_on>2020-07-27 09:35:58</sys_created_on>
+        <sys_id>c55030cd2f12945054daa1fef699b65e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1738fa0f8920000001</sys_recorded_at>
+        <sys_updated_by>gareth.price</sys_updated_by>
+        <sys_updated_on>2020-07-27 09:35:58</sys_updated_on>
+        <type>UI parameter</type>
+        <update_guid>415030cd8b129450156d8b5e827f6d5e</update_guid>
+        <update_guid_history>415030cd8b129450156d8b5e827f6d5e:1470438196,7f40304daa12945079f9a9e6478b9e79:760332438</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>gareth.price</sys_created_by>
+        <sys_created_on>2020-07-27 09:36:26</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_ui_parameter">sys_sg_ui_parameter</sys_db_object>
+        <sys_id>02bbd5f6a4ca4f5c8018972fe0398d64</sys_id>
+        <sys_metadata>7b40304d2f12945054daa1fef699b677</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Test</sys_name>
+        <sys_package display_value="FF Asset Management" source="x_357097_ff_asset">cd10a8052f5e545054daa1fef699b660</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="FF Asset Management">cd10a8052f5e545054daa1fef699b660</sys_scope>
+        <sys_scope_delete display_value="">349eb98210184dd8af08518d26abd951</sys_scope_delete>
+        <sys_update_name>sys_sg_ui_parameter_7b40304d2f12945054daa1fef699b677</sys_update_name>
+        <sys_update_version display_value="sys_sg_ui_parameter_7b40304d2f12945054daa1fef699b677">c55030cd2f12945054daa1fef699b65e</sys_update_version>
+        <sys_updated_by>gareth.price</sys_updated_by>
+        <sys_updated_on>2020-07-27 09:36:26</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

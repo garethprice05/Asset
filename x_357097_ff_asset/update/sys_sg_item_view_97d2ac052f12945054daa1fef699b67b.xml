@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_view">
+    <sys_sg_item_view action="INSERT_OR_UPDATE">
+        <data_item/>
+        <dependency_fields/>
+        <item_view_json>{"Type":"ViewGroup","Margin":{"Top":16,"Bottom":16},"Orientation":"Vertical","Alignment":"Left","Distribution":"Auto","Children":[{"Type":"Text","Margin":{},"Id":22123,"studio_template_field_id":"E1","TextColor":"#293e40","TextAlignment":"Left","MaxLines":1,"Font":{"Weight":"regular","Size":13}},{"Type":"Text","Margin":{"Top":8},"studio_template_field_id":"E2","TextColor":"#293e40","TextAlignment":"Left","MaxLines":2,"Font":{"Weight":"medium","Size":18},"Id":22124},{"Type":"ViewGroup","Orientation":"Horizontal","Alignment":"Center","Distribution":"Auto","Children":[{"Type":"Text","Margin":{"Right":8},"studio_template_field_id":"E3","studio_template_is_label":true,"TextColor":"#7d8a8c","TextAlignment":"Left","MaxLines":1,"Font":{"Weight":"regular","Size":13},"Id":32752},{"Type":"Text","Margin":{"Right":12},"studio_template_field_id":"E3","TextColor":"#293e40","TextAlignment":"Left","MaxLines":1,"Font":{"Weight":"bold","Size":13},"Id":32753,"Text":""},{"Type":"Text","BackgroundColor":"#d1d6d8","Height":12,"Width":1,"Margin":{"Right":12},"TextColor":"#d1d6d8","TextAlignment":"Left","MaxLines":1,"Font":{"Weight":"regular"},"Id":32754},{"Type":"Text","Margin":{"Right":8},"studio_template_is_label":true,"studio_template_field_id":"E4","TextColor":"#7d8a8c","TextAlignment":"Left","MaxLines":1,"Font":{"Weight":"regular","Size":13},"Id":32755},{"Type":"Text","studio_template_field_id":"E4","Text":"","TextColor":"#293e40","TextAlignment":"Left","MaxLines":1,"Font":{"Weight":"regular","Size":13},"Id":32756}],"Margin":{"Top":11},"Id":12261}],"studio_card_id":"2ed6c41123412300a8ed7f4fc7bf6568","Id":28090}</item_view_json>
+        <name>Asset Searcher Item View</name>
+        <short_description/>
+        <sys_class_name>sys_sg_item_view</sys_class_name>
+        <sys_created_by>gareth.price</sys_created_by>
+        <sys_created_on>2020-07-27 08:37:08</sys_created_on>
+        <sys_id>97d2ac052f12945054daa1fef699b67b</sys_id>
+        <sys_mod_count>23</sys_mod_count>
+        <sys_name>Asset Searcher Item View</sys_name>
+        <sys_package display_value="FF Asset Management" source="x_357097_ff_asset">cd10a8052f5e545054daa1fef699b660</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="FF Asset Management">cd10a8052f5e545054daa1fef699b660</sys_scope>
+        <sys_update_name>sys_sg_item_view_97d2ac052f12945054daa1fef699b67b</sys_update_name>
+        <sys_updated_by>gareth.price</sys_updated_by>
+        <sys_updated_on>2020-07-27 09:36:28</sys_updated_on>
+        <table>alm_asset</table>
+        <ui_styles/>
+    </sys_sg_item_view>
+    <sys_translated_text action="delete_multiple" query="documentkey=97d2ac052f12945054daa1fef699b67b"/>
+</record_update>

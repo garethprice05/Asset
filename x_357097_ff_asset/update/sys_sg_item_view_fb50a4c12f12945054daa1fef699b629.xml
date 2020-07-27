@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_view">
+    <sys_sg_item_view action="INSERT_OR_UPDATE">
+        <data_item display_value="FF Asset Management Asset">7750a4c12f12945054daa1fef699b627</data_item>
+        <dependency_fields>acquisition_method,active_to,asset_tag,assigned,assigned_to,beneficiary</dependency_fields>
+        <item_view_json>{"Children":[{"Children":[{"Children":[{"TextColor":"#293e40","TextAlignment":"Center","MaxLines":1,"Text":"","Width":100,"Height":21,"BackgroundColor":"#f1f1f1","Font":{"Weight":"semibold","Size":13},"CornerRadius":2,"CellId":"acquisition_method","studio_template_field_id":"E1","Type":"Text"}],"Alignment":"Left","Distribution":"Auto","Orientation":"Vertical","Margin":{"Right":12},"Type":"ViewGroup"},{"Children":[{"TextColor":"#7d8a8c","TextAlignment":"Right","MaxLines":1,"Text":"","Font":{"Weight":"regular","Size":13},"CellId":"active_to","studio_template_field_id":"E2","Type":"Text"}],"Alignment":"Right","Distribution":"Auto","Orientation":"Vertical","Type":"ViewGroup"}],"Alignment":"Stretch","Distribution":"Equal","Orientation":"Horizontal","Type":"ViewGroup"},{"TextColor":"#293e40","TextAlignment":"Left","MaxLines":2,"Text":"","Font":{"Weight":"regular","Size":18},"CellId":"asset_tag","studio_template_field_id":"E3","Margin":{"Top":9},"Type":"Text"},{"Children":[{"Children":[{"TextColor":"#7d8a8c","TextAlignment":"Left","MaxLines":1,"Text":"${assigned}","Font":{"Weight":"regular","Size":13},"studio_template_is_label":true,"studio_template_field_id":"E4","Margin":{"Right":8},"Type":"Text"},{"Scaling":"Fill","Width":22,"Height":22,"CornerRadius":11,"CellId":"assigned_to","studio_template_field_id":"E5","Margin":{"Right":6},"Type":"Image"},{"TextColor":"#293e40","TextAlignment":"Left","MaxLines":1,"Text":"","Font":{"Weight":"regular","Size":13},"CellId":"assigned","studio_template_field_id":"E4","Type":"Text"}],"Alignment":"Center","Distribution":"Auto","Orientation":"Horizontal","Margin":{"Top":9},"Type":"ViewGroup"},{"Children":[{"TextColor":"#7d8a8c","TextAlignment":"Left","MaxLines":1,"Text":"${beneficiary}","Font":{"Weight":"regular","Size":13},"studio_template_is_label":true,"studio_template_field_id":"E6","Margin":{"Right":8},"Type":"Text"},{"TextColor":"#293e40","TextAlignment":"Left","MaxLines":1,"Text":"","Font":{"Weight":"regular","Size":13},"CellId":"beneficiary","studio_template_field_id":"E6","Type":"Text"}],"Alignment":"Center","Distribution":"Auto","Orientation":"Horizontal","Margin":{"Top":7},"Type":"ViewGroup"}],"Alignment":"Left","Distribution":"Auto","Orientation":"Vertical","Type":"ViewGroup"}],"Alignment":"Stretch","Distribution":"Auto","studio_card_id":"9599488923452300a8ed7f4fc7bf652e","Orientation":"Vertical","Margin":{"Top":17,"Bottom":15},"Type":"ViewGroup"}</item_view_json>
+        <name>Asset Detail Screen Item View</name>
+        <short_description/>
+        <sys_class_name>sys_sg_item_view</sys_class_name>
+        <sys_created_by>gareth.price</sys_created_by>
+        <sys_created_on>2020-07-27 08:26:15</sys_created_on>
+        <sys_id>fb50a4c12f12945054daa1fef699b629</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Asset Detail Screen Item View</sys_name>
+        <sys_package display_value="FF Asset Management" source="x_357097_ff_asset">cd10a8052f5e545054daa1fef699b660</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="FF Asset Management">cd10a8052f5e545054daa1fef699b660</sys_scope>
+        <sys_update_name>sys_sg_item_view_fb50a4c12f12945054daa1fef699b629</sys_update_name>
+        <sys_updated_by>gareth.price</sys_updated_by>
+        <sys_updated_on>2020-07-27 08:26:15</sys_updated_on>
+        <table>alm_asset</table>
+        <ui_styles/>
+    </sys_sg_item_view>
+    <sys_translated_text action="delete_multiple" query="documentkey=fb50a4c12f12945054daa1fef699b629"/>
+</record_update>

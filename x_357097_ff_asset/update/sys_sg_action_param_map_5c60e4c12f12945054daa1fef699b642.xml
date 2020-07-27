@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_action_param_map">
+    <sys_sg_action_param_map action="INSERT_OR_UPDATE">
+        <button display_value="New Button (Asset)">c860a4c12f12945054daa1fef699b6bf</button>
+        <item_parameter display_value="Asset department">7f50a4c12f12945054daa1fef699b688</item_parameter>
+        <sys_class_name>sys_sg_action_param_map</sys_class_name>
+        <sys_created_by>gareth.price</sys_created_by>
+        <sys_created_on>2020-07-27 08:26:17</sys_created_on>
+        <sys_id>5c60e4c12f12945054daa1fef699b642</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>7f50a4c12f12945054daa1fef699b688</sys_name>
+        <sys_package display_value="FF Asset Management" source="x_357097_ff_asset">cd10a8052f5e545054daa1fef699b660</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="FF Asset Management">cd10a8052f5e545054daa1fef699b660</sys_scope>
+        <sys_update_name>sys_sg_action_param_map_5c60e4c12f12945054daa1fef699b642</sys_update_name>
+        <sys_updated_by>gareth.price</sys_updated_by>
+        <sys_updated_on>2020-07-27 08:26:17</sys_updated_on>
+        <ui_parameter display_value="Department">c060a4c12f12945054daa1fef699b6d5</ui_parameter>
+    </sys_sg_action_param_map>
+</record_update>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_action_param_map">
+    <sys_sg_action_param_map action="INSERT_OR_UPDATE">
+        <button display_value="Create an Incident (asset)">ca41e4052f12945054daa1fef699b62f</button>
+        <item_parameter display_value="cmdb_ci">557b38852f52945054daa1fef699b639</item_parameter>
+        <sys_class_name>sys_sg_action_param_map</sys_class_name>
+        <sys_created_by>gareth.price</sys_created_by>
+        <sys_created_on>2020-07-27 10:49:57</sys_created_on>
+        <sys_id>bc4145492f52945054daa1fef699b6ab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>557b38852f52945054daa1fef699b639</sys_name>
+        <sys_package display_value="FF Asset Management" source="x_357097_ff_asset">cd10a8052f5e545054daa1fef699b660</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="FF Asset Management">cd10a8052f5e545054daa1fef699b660</sys_scope>
+        <sys_update_name>sys_sg_action_param_map_bc4145492f52945054daa1fef699b6ab</sys_update_name>
+        <sys_updated_by>gareth.price</sys_updated_by>
+        <sys_updated_on>2020-07-27 10:49:57</sys_updated_on>
+        <ui_parameter display_value="ci">8d500d492f52945054daa1fef699b60f</ui_parameter>
+    </sys_sg_action_param_map>
+</record_update>
