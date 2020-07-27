@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_applet_launcher_tab">
     <sys_sg_applet_launcher_tab action="INSERT_OR_UPDATE">
         <active>true</active>
-        <applet_launcher display_value="FF Asset Management">7b5060812f12945054daa1fef699b6ed</applet_launcher>
+        <applet_launcher display_value="Asset Management">7b5060812f12945054daa1fef699b6ed</applet_launcher>
         <icon display_value="Asset Management Home">70d5cd4d2f52945054daa1fef699b661</icon>
         <label>FF Asset Management</label>
         <roles>asset</roles>
